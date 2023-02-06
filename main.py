@@ -151,7 +151,7 @@ def parse_args():
     return args
 
 
-# Pleasae Use this code for Guss,OverlapGus, moons , circles Only (for iris data set use final22_iris file)
+# Pleasae Use this code for Guss,OverlapGus, moons, circles datasets Only (for iris data set use final22_iris file)
 
 if __name__ == '__main__':
 
