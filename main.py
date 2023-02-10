@@ -140,6 +140,7 @@ def main(args):
 ###########
 
 def parse_args():
+    ## Fee free to change the values of the defualt parameters to run other experiments
     parser=argparse.ArgumentParser()
     parser.add_argument("--K", type=int,default=3,help="Number of clusters")
     parser.add_argument("--iter", type=int, default=100, help="Number of iterations")
@@ -151,7 +152,7 @@ def parse_args():
     return args
 
 
-# Pleasae Use this code for Guss,OverlapGus, moons, circles datasets Only (for iris data set use final22_iris file)
+# Pleasae Use this code for Guss,OverlapGus, moons, circles datasets Only (for iris data set use iris_clust file)
 
 if __name__ == '__main__':
 
